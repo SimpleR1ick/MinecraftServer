@@ -1,0 +1,92 @@
+# ==========================================================
+# Binários do Servidor, Runtime Java e Cache
+# ==========================================================
+server.jar
+*.jar
+jre/
+libraries/
+versions/
+cache/
+.paper/
+
+# ==========================================================
+# Mundos e Dados Renderizados (BlueMap)
+# ==========================================================
+/world/
+/world_nether/
+/world_the_end/
+/bluemap/
+
+# ==========================================================
+# Logs, Relatórios de Crash e Profiling
+# ==========================================================
+logs/
+crash-reports/
+*.log
+*.log.gz
+plugins/bStats/
+plugins/spark/
+plugins/.paper-remapped/
+
+# ==========================================================
+# Credenciais, Caches de Jogadores e Estado do Servidor
+# ==========================================================
+server.properties
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+
+# ==========================================================
+# Bancos de Dados, Caches e Dados de Jogadores dos Plugins
+# ==========================================================
+plugins/**/*.db
+plugins/**/*.db-shm
+plugins/**/*.db-wal
+plugins/**/*.mv.db
+plugins/**/*.trace.db
+plugins/**/*.sqlite
+plugins/**/*.bin
+
+# AuthMe
+plugins/AuthMe/playerdata/
+plugins/AuthMe/authme.log
+
+# CoreProtect
+plugins/CoreProtect/.license
+plugins/CoreProtect/database.db
+
+# EssentialsX
+plugins/Essentials/userdata/
+plugins/Essentials/userdata-npc-backup/
+plugins/Essentials/items.json
+plugins/Essentials/upgrades-done.yml
+
+# LuckPerms
+plugins/LuckPerms/libs/
+plugins/LuckPerms/translations/
+
+# SkinsRestorer
+plugins/SkinsRestorer/cache/
+plugins/SkinsRestorer/cooldowns/
+plugins/SkinsRestorer/locales/
+plugins/SkinsRestorer/players/
+plugins/SkinsRestorer/skins/
+plugins/SkinsRestorer/recommendations.json
+
+# BlueMap data/packs gerados
+plugins/BlueMap/packs/
+plugins/BlueMap/storages/
+
+# TAB dados dinâmicos
+plugins/TAB/playerdata.yml
+plugins/TAB/skincache.yml
+
+# Chunky tasks em andamento
+plugins/Chunky/tasks/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
